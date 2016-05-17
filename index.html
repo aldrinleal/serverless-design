@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Aspectos Práticos de Serverless</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+    </style>
+  </head>
+  <body>
+    <!-- script type="text/javascript" src="https://gnab.github.io/remark/downloads/remark-latest.js" -->
+    <!-- <script src="js/remark-0.13.0/out/remark.js"></script> -->
+    <script type="text/javascript" src="https://gnab.github.io/remark/downloads/remark-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/languages/kotlin.min.js"></script>
+    <script>
+      var slideshow = remark.create({
+        sourceUrl: 'slides.md',
+        highlightLanguage: 'kotlin',
+        highlightLines: true,
+        //,
+        //highlightStyle: 'solarized-light'
+      });
+    </script>
+  </body>
+</html>
